@@ -1,14 +1,20 @@
 {
   "name": "@yuanjianming/ts-config",
-  "version": "1.3.0",
+  "version": "1.3.2",
   "publishConfig": {
     "access": "public"
   },
+  "main": "base.json",
   "files": [
     "base.json",
     "node-server.json",
-    "vue-app.json"
+    "vue-app.json",
+    "node.json"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yuan66-hub/ts-config.git"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "rollup --config"
@@ -16,11 +22,7 @@
   "keywords": [
     "ts-config"
   ],
+  "homepage": "https://github.com/yuan66-hub/ts-config#readme",
   "author": "yuanjiangming",
-  "license": "MIT",
-  "devDependencies": {
-    "@rollup/plugin-json": "^6.1.0",
-    "rollup": "^4.18.0",
-    "typescript": "^5.4.5"
-  }
+  "license": "MIT"
 }

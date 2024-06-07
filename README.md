@@ -42,4 +42,16 @@
 }
 ```
 
+##  node  tsconfig
+
+```json
+{
+    //...
+    "extends":[
+        "@yuanjianming/ts-config/node.json"
+    ]
+}
+```
+
+
 
